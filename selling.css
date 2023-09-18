@@ -1,0 +1,158 @@
+
+  #newest-cars .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#newest-cars .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+#newest-cars .card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+#newest-cars .card h3 {
+  margin: 10px 0;
+}
+
+#newest-cars .card p {
+  color: #555;
+}
+#expensive-cars .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#expensive-cars .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+#expensive-cars .card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+#expensive-cars .card h3 {
+  margin: 10px 0;
+}
+
+#expensive-cars .card p {
+  color: #555;
+}
+
+ #mentioned-models ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#mentioned-models li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#mentioned-models ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#mentioned-models li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#bmw-series-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#bmw-series-table th, #bmw-series-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#bmw-series-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+#bmw-series-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+h2{
+  color:blue;
+  background-color: black;
+  text-align: center;
+
+}
+#Best-selling-cars .card1-container {
+  display: flex;
+    flex-direction: row;
+        gap: 15px; }
+
+    #Best-selling-cars .card1 {
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    width: 320px;
+    height: 430px;
+    }
+     #Best-selling-cars .card1:hover {
+      transition: all 0.3s ease-in-out;
+      filter: none;
+      cursor: pointer;
+      width: 330px;
+      height: 440px;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+    }
+    
+    #Best-selling-cars .card1 h3 {
+      margin: 10px 0;
+    }
+    #Best-selling-cars .card1 img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;}
+    
+    #Best-selling-cars .card1 p {
+      color:#555;
+      padding: 2px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+    ul{
+      margin-left: 640px;
+    }

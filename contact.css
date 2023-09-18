@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #220fce;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ nav a:hover{
+    color: #220fce;
+ }
+
+section {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 250px;
+}
+
+form input,
+form select {
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+form input[type="submit"] {
+    background-color: #220fce;
+    color: #d0cbcb;
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #101010;
+}
+
+button {
+    color: #dde1e4;
+    background-color:#220fce;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 360px;
+}
+
+button:hover {
+    background-color: #0d0d0e;
+}
+#carsforsale .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #carsforsale .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+    text-align: center;
+  }
+  #specialdeal .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0px;
+    max-width: 950px;
+    text-align: center;}
+
+  #specialdeal .card img{
+    max-width: 500px;
+    height: 300px;
+    border-radius: 4px;
+    margin-left: 50px;
+
+  }
+  
+  #carsforesale .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-left: 50px;
+  }
+  
+  #carsforsale .card {
+    margin: 10px 0;
+    margin-left: 210px;
+  }
+  
+  #carsforsale .card p {
+    color:#fff;
+  }
+  h3{
+    margin-left: 350px;
+
+  }
+   #specialdeal{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    padding:10px;
+    max-width: 900px;
+    margin-left: 285px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+   }
+   p1{
+    margin: 150px;
+    color:#220fce;font-size: 15px;
+   }
+
+    h2{
+        margin-left: 350px;
+        color: #220fce;
+    }
+
+    h1-1{
+     font-size: 30px;
+     color: #220fce ;
+    }
+    #carsforsale{
+        background-color: #000000;
+        color: #fff;
+        border-radius: 5px;
+        padding:10px;
+        max-width: 900px;
+        margin-left: 290px;
+    }
+    
+    h2-2{
+        font-size: 30px;
+        margin-left: 350px;
+        color: #220fce;
+        font-style: initial;
+    }
+   #contactform{
+        background-color: #000000;
+        color: #fff;
+        border-radius: 5px;
+        padding:10px;
+        max-width: 900px;
+        margin-left: 290px;
+        margin-top: 20px;
+    }
+    
